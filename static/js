@@ -1,0 +1,27 @@
+function populateLanguageSelector() {
+  const selector = document.getElementById("language");
+  if (!selector) return;
+
+  const languages = {
+    en: "English",
+    es: "Español",
+    hi: "हिन्दी",
+    fr: "Français",
+    de: "Deutsch",
+    it: "Italiano",
+    pt: "Português",
+    zh: "中文",
+    ja: "日本語",
+    ko: "한국어",
+    ru: "Русский",
+    sv: "Svenska",
+    ar: "العربية"
+  };
+
+  for (const [code, label] of Object.entries(languages)) {
+    const option = document.createElement("option");
+    option.value = code;
+    option.textContent = label;
+    selector.appendChild(option);
+  }
+}
