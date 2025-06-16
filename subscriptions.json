@@ -1,0 +1,50 @@
+{
+  "subscriptions": [
+    {
+      "tier": "Free",
+      "price_per_month": 0,
+      "billing_type": "monthly",
+      "features": [
+        "Limited daily questions",
+        "Access to basic travel insights",
+        "English + Spanish support"
+      ]
+    },
+    {
+      "tier": "Basic",
+      "price_per_month": 3,
+      "billing_type": "monthly",
+      "features": [
+        "All Free plan features",
+        "Unlimited daily questions",
+        "Itinerary generation (lite version)",
+        "RoamReach email access"
+      ]
+    },
+    {
+      "tier": "Plus",
+      "price_per_month": 7,
+      "billing_type": "monthly",
+      "features": [
+        "All Basic features",
+        "Expanded itinerary builder",
+        "Kid/pet-friendly filters",
+        "Live concierge prompts",
+        "Multilingual support"
+      ]
+    },
+    {
+      "tier": "Trailblazer",
+      "price_one_time": 169,
+      "billing_type": "lifetime",
+      "features": [
+        "All Plus features",
+        "Offline travel mode",
+        "Custom regional trip loops",
+        "AI-powered hike and wildlife tracking",
+        "Seasonal alerts + high-traffic bypass logic",
+        "Lifetime access to all future YellowRoam features"
+      ]
+    }
+  ]
+}
