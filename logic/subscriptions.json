@@ -11,7 +11,7 @@
       ]
     },
     {
-      "tier": "Basic",
+      "tier": "Explorer",
       "price_per_month": 3,
       "billing_type": "monthly",
       "features": [
@@ -19,10 +19,11 @@
         "Unlimited daily questions",
         "Itinerary generation (lite version)",
         "RoamReach email access"
+        "Local Tips"
       ]
     },
     {
-      "tier": "Plus",
+      "tier": "Trailblazer",
       "price_per_month": 7,
       "billing_type": "monthly",
       "features": [
@@ -31,10 +32,11 @@
         "Kid/pet-friendly filters",
         "Live concierge prompts",
         "Multilingual support"
+        "Local Tips"
       ]
     },
     {
-      "tier": "Trailblazer",
+      "tier": "",
       "price_one_time": 169,
       "billing_type": "lifetime",
       "features": [
